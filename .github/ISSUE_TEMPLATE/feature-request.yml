@@ -1,0 +1,35 @@
+name: "Feature Request"
+description: "Suggest a feature or improvement."
+title: "[FEATURE] "
+labels:
+  - "feature"
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Project"
+      description: "Which project should this feature request apply to?"
+      options:
+        - "Attribute PvP Helper Reforged"
+        - "HM Basic Play"
+        - "HM Life+"
+        - "HMT Pack"
+        - "HMTAPI"
+        - "HMTSync"
+        - "JS Combat Pro"
+        - "JS Green Ores / JS Cyan Ores"
+        - "JS Performance Core"
+        - "JS Removed Crosshair"
+        - "Discord"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe the feature or improvement you would like to see."
+      placeholder: "Describe your feature request..."
+    validations:
+      required: true
