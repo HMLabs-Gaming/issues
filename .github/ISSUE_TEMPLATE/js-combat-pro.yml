@@ -1,0 +1,72 @@
+name: "JS Combat Pro"
+description: "Report a problem or bug with JS Combat Pro."
+title: "[JS Combat Pro] "
+labels:
+  - "js-combat-pro"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## JS Combat Pro
+
+        Please check the [project documentation](https://gaming.henrymeyer.de/projects/modpacks/js-combat-pro/) before opening an issue.
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: "Modpack Version"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: "Minecraft Version"
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: "Mod Loader"
+      options:
+        - "Fabric"
+        - "Forge"
+        - "NeoForge"
+        - "Quilt"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / Crash Report"
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"

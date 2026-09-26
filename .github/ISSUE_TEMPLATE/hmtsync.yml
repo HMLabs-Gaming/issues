@@ -1,0 +1,84 @@
+name: "HMTSync"
+description: "Report a problem or bug with HMTSync."
+title: "[HMTSync] "
+labels:
+  - "hmtsync"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## HMTSync
+
+        HMTSync currently has no project documentation. Please make sure to provide as much technical information as possible.
+
+        Source repository: https://github.com/TitanSMP/HMTSync
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: "HMTSync Version"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: "Minecraft Version"
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: server-type
+    attributes:
+      label: "Server Software"
+      options:
+        - "Paper"
+        - "Spigot"
+        - "Purpur"
+        - "Folia"
+        - "Velocity"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      description: "Describe the problem as precisely as possible."
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Server Logs"
+      description: "Please provide relevant logs."
+      render: text
+
+  - type: textarea
+    id: configuration
+    attributes:
+      label: "Configuration"
+      description: "If relevant, provide the relevant HMTSync configuration. Remove secrets before posting."
+      render: yaml
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"

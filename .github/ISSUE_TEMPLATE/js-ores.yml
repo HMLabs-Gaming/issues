@@ -1,0 +1,82 @@
+name: "JS Green Ores / JS Cyan Ores"
+description: "Report a problem with one of the JS ore resource packs."
+title: "[JS Ores] "
+labels:
+  - "resource-pack"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## JS Green Ores / JS Cyan Ores
+
+        Please check the [project documentation](https://gaming.henrymeyer.de/projects/resourcepacks/js-green-ores/) before opening an issue.
+
+  - type: dropdown
+    id: resource-pack
+    attributes:
+      label: "Affected Resource Pack"
+      description: "Which resource pack is affected?"
+      options:
+        - "JS Green Diamond Ore"
+        - "JS Green Ancient Debris"
+        - "JS Green Redstone Ore"
+        - "JS Green Iron Ore"
+        - "JS Cyan Diamond Ore"
+    validations:
+      required: true
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: "Resource Pack Version"
+      description: "Which version of the resource pack are you using?"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: "Minecraft Version"
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      description: "Describe what is wrong with the resource pack."
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect to happen?"
+      placeholder: "The ore should..."
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. Install the resource pack
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "Screenshots are highly appreciated for visual issues."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"

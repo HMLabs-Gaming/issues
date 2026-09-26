@@ -1,0 +1,75 @@
+name: "HMTAPI"
+description: "Report a problem or bug with HMTAPI."
+title: "[HMTAPI] "
+labels:
+  - "hmtapi"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## HMTAPI
+
+        Please check the [project documentation](https://gaming.henrymeyer.de/projects/plugins/hmtapi/) before opening an issue.
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: "HMTAPI Version"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: server-version
+    attributes:
+      label: "Server Version"
+      description: "Which Minecraft server version are you using?"
+      placeholder: "e.g. Paper 1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: server-type
+    attributes:
+      label: "Server Software"
+      options:
+        - "Paper"
+        - "Spigot"
+        - "Purpur"
+        - "Folia"
+        - "Velocity"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Server Logs"
+      description: "Please provide the relevant server logs."
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"

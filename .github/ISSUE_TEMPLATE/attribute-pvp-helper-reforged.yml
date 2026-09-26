@@ -1,0 +1,77 @@
+name: "Attribute PvP Helper Reforged"
+description: "Report a problem or bug with Attribute PvP Helper Reforged."
+title: "[Attribute PvP Helper Reforged] "
+labels:
+  - "attribute-pvp-helper-reforged"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Attribute PvP Helper Reforged
+
+        Please check the [project documentation](https://gaming.henrymeyer.de/projects/mods/attribute-pvp-helper-reforged/) before opening an issue.
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: "Mod Version"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: "Minecraft Version"
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: "Mod Loader"
+      options:
+        - "NeoForge"
+        - "Forge"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / Crash Report"
+      description: "Please include the relevant log or crash report."
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "Screenshots can be useful for visual or UI-related problems."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"

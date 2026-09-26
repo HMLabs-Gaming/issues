@@ -1,0 +1,65 @@
+name: "JS Removed Crosshair"
+description: "Report a problem or bug with JS Removed Crosshair."
+title: "[JS Removed Crosshair] "
+labels:
+  - "resource-pack"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## JS Removed Crosshair
+
+        Please check the [project documentation](https://gaming.henrymeyer.de/projects/resourcepacks/js-removed-crosshair/) before opening an issue.
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: "Resource Pack Version"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: "Minecraft Version"
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      placeholder: "Describe what should happen..."
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. Enable the resource pack
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "Please include screenshots if the issue is visual."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"
