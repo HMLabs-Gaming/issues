@@ -1,8 +1,8 @@
-name: "[BUG: HMTAPI]"
+name: "BUG: HMTAPI"
 description: "Report a problem or bug with HMTAPI."
 title: "[BUG: HMTAPI] "
 labels:
-  - "hmtapi"
+  - "HMTAPI"
   - "bug"
 body:
   - type: markdown

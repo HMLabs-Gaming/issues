@@ -1,8 +1,8 @@
-name: "[BUG: JS Green Ores / JS Cyan Ores]"
+name: "BUG: JS Green Ores / JS Cyan Ores"
 description: "Report a problem with one of the JS ore resource packs."
 title: "[BUG: JS Green Ores / JS Cyan Ores] "
 labels:
-  - "resource-pack"
+  - "JS Green Ores / JS Cyan Ores"
   - "bug"
 body:
   - type: markdown

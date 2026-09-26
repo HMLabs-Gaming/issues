@@ -1,8 +1,8 @@
-name: "[BUG: JS Performance Core]"
+name: "BUG: JS Performance Core"
 description: "Report a problem or bug with JS Performance Core."
 title: "[BUG: JS Performance Core] "
 labels:
-  - "js-performance-core"
+  - "JS Performance Core"
   - "bug"
 body:
   - type: markdown

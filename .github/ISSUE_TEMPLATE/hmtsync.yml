@@ -1,8 +1,8 @@
-name: "[BUG: HMTSync]"
+name: "BUG: HMTSync"
 description: "Report a problem or bug with HMTSync."
 title: "[BUG: HMTSync] "
 labels:
-  - "hmtsync"
+  - "HMTSync"
   - "bug"
 body:
   - type: markdown

@@ -1,8 +1,8 @@
-name: "[BUG: HM Basic Play]"
+name: "BUG: HM Basic Play"
 description: "Report a problem or bug with HM Basic Play."
 title: "[BUG: HM Basic Play] "
 labels:
-  - "hm-basic-play"
+  - "HM Basic Play"
   - "bug"
 body:
   - type: markdown

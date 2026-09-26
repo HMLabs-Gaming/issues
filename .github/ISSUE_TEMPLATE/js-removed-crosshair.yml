@@ -1,8 +1,8 @@
-name: "[BUG: JS Removed Crosshair]"
+name: "BUG: JS Removed Crosshair"
 description: "Report a problem or bug with JS Removed Crosshair."
 title: "[BUG: JS Removed Crosshair] "
 labels:
-  - "resource-pack"
+  - "JS Removed Crosshair"
   - "bug"
 body:
   - type: markdown
