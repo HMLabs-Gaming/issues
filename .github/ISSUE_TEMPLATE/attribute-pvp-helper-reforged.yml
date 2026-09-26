@@ -33,8 +33,7 @@ body:
     attributes:
       label: "Mod Loader"
       options:
-        - "NeoForge"
-        - "Forge"
+        - "Fabric"
         - "Other"
     validations:
       required: true
