@@ -1,6 +1,6 @@
-name: "HM-Lifep"
-description: "Report a problem or bug with HM-Lifep."
-title: "[HM-Lifep] "
+name: "HM Life+"
+description: "Report a problem or bug with HM Life+."
+title: "[HM Life+] "
 labels:
   - "hm-lifep"
   - "bug"
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## HM-Lifep
+        ## HM Life+
 
         Please check the [project documentation](https://gaming.henrymeyer.de/projects/modpacks/hm-lifep/) before opening an issue.
 
