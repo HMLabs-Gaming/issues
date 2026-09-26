@@ -1,0 +1,79 @@
+name: "HM Basic Play"
+description: "Report a problem or bug with HM Basic Play."
+title: "[HM Basic Play] "
+labels:
+  - "hm-basic-play"
+  - "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## HM Basic Play
+
+        Please check the [project documentation](https://gaming.henrymeyer.de/projects/modpacks/hm-basic-play/) before opening an issue.
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: "Modpack Version"
+      description: "Which version of HM Basic Play are you using?"
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: "Minecraft Version"
+      description: "Which Minecraft version are you using?"
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: "Mod Loader"
+      options:
+        - "Fabric"
+        - "Forge"
+        - "NeoForge"
+        - "Quilt"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What happened?"
+      description: "Clearly describe the problem."
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Tell us how the problem can be reproduced."
+      placeholder: |
+        1. Start the game
+        2. Open ...
+        3. Do ...
+        4. The issue occurs
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / Crash Report"
+      description: "Please provide relevant logs or a crash report. Use a paste service for large files."
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"
+      description: "Anything else that may help us investigate the issue?"
