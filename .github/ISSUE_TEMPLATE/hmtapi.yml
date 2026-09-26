@@ -35,10 +35,7 @@ body:
       label: "Server Software"
       options:
         - "Paper"
-        - "Spigot"
         - "Purpur"
-        - "Folia"
-        - "Velocity"
         - "Other"
     validations:
       required: true

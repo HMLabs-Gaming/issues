@@ -34,9 +34,6 @@ body:
       label: "Mod Loader"
       options:
         - "Fabric"
-        - "Forge"
-        - "NeoForge"
-        - "Quilt"
         - "Other"
     validations:
       required: true
