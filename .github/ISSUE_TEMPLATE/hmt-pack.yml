@@ -1,6 +1,6 @@
-name: "HMT Pack"
+name: "[BUG: HMT Pack]"
 description: "Report a problem or bug with HMT Pack."
-title: "[HMT Pack] "
+title: "[BUG: HMT Pack] "
 labels:
   - "hmt-pack"
   - "bug"

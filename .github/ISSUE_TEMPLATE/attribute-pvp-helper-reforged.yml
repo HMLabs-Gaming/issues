@@ -1,6 +1,6 @@
-name: "Attribute PvP Helper Reforged"
+name: "[BUG: Attribute PvP Helper Reforged]"
 description: "Report a problem or bug with Attribute PvP Helper Reforged."
-title: "[Attribute PvP Helper Reforged] "
+title: "[BUG: Attribute PvP Helper Reforged] "
 labels:
   - "attribute-pvp-helper-reforged"
   - "bug"

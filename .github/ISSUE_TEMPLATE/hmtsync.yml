@@ -1,6 +1,6 @@
-name: "HMTSync"
+name: "[BUG: HMTSync]"
 description: "Report a problem or bug with HMTSync."
-title: "[HMTSync] "
+title: "[BUG: HMTSync] "
 labels:
   - "hmtsync"
   - "bug"

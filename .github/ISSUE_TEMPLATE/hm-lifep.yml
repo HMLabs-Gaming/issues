@@ -1,6 +1,6 @@
-name: "HM Life+"
+name: "[BUG: HM Life+]"
 description: "Report a problem or bug with HM Life+."
-title: "[HM Life+] "
+title: "[BUG: HM Life+] "
 labels:
   - "hm-lifep"
   - "bug"

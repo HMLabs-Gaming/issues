@@ -1,6 +1,6 @@
-name: "HMTAPI"
+name: "[BUG: HMTAPI]"
 description: "Report a problem or bug with HMTAPI."
-title: "[HMTAPI] "
+title: "[BUG: HMTAPI] "
 labels:
   - "hmtapi"
   - "bug"

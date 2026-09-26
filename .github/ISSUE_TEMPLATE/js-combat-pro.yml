@@ -1,6 +1,6 @@
-name: "JS Combat Pro"
+name: "[BUG: JS Combat Pro]"
 description: "Report a problem or bug with JS Combat Pro."
-title: "[JS Combat Pro] "
+title: "[BUG: JS Combat Pro] "
 labels:
   - "js-combat-pro"
   - "bug"
